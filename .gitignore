@@ -88,3 +88,5 @@ sftp-config.json
 
 # VS
 .vscode/
+
+poetry.lock
