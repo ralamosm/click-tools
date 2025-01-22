@@ -90,3 +90,6 @@ sftp-config.json
 .vscode/
 
 poetry.lock
+
+# Poetry temporary files
+=*

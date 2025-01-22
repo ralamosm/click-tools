@@ -1,13 +1,24 @@
-from .cli import ChoiceCommaSeparated, ListCommaSeparated, StringsListOrStdinParamType, FileUrlIterStringParamType, FileIterStringParamType, FileOrUrlParamType, StringOrFileParamType, UrlOrListFromFileStdinParamType
+from .cli import (
+    TypeConvertingIterator,
+    ChoiceCommaSeparated,
+    ListCommaSeparated,
+    StringsListOrStdinParamType,
+    FileUrlIterStringParamType,
+    FileIterStringParamType,
+    FileOrUrlParamType,
+    StringOrFileParamType,
+    UrlOrListFromFileStdinParamType,
+)
 
 __all__ = [
-    "ChoiceCommaSeparated",
-    "ListCommaSeparated",
-    "StringsListOrStdinParamType",
-    "FileUrlIterStringParamType",
-    "FileIterStringParamType",
-    "FileOrUrlParamType",
-    "StringOrFileParamType",
-    "UrlOrListFromFileStdinParamType"
+    'TypeConvertingIterator',
+    'ChoiceCommaSeparated',
+    'ListCommaSeparated',
+    'StringsListOrStdinParamType',
+    'FileUrlIterStringParamType',
+    'FileIterStringParamType',
+    'FileOrUrlParamType',
+    'StringOrFileParamType',
+    'UrlOrListFromFileStdinParamType',
 ]
 
